@@ -1,0 +1,337 @@
+/* CAR TYPE */
+.car-type {
+  &__item {
+    display: flex;
+    background: $white;
+    padding: 10px 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.05);
+  }
+
+  &__right {
+    margin-left: auto;
+
+    ._image-car {
+      width: 120px;
+    }
+  }
+
+  &__detail {
+    padding: 0.3rem 0.5rem;
+    font-size: 1rem;
+  }
+
+  &__description {
+    margin-bottom: 10px;
+
+    a:not(:last-child):after {
+      content: ",";
+    }
+  }
+
+  &__name {
+    font-size: 1.45rem;
+  }
+
+}
+
+/* Apartment Type */
+.apartment-type {
+  padding: 30px 0;
+  &__item {
+    border: 1px solid #eee;
+    border-radius: 3px;
+    padding: 10px;
+    .apartment-type__thumbnail{
+      margin-bottom: 15px;
+      a{
+        overflow: hidden;
+        display: block;
+        img{
+          transition: all 0.3s;
+        }
+      }
+      &:hover{
+        a{
+          img{
+            transform: scale(1.1);
+          }
+        }
+      }
+    }
+
+    .apartment-type__info{
+      .apartment-type__name{
+        font-size: 15px;
+        &:hover{
+          a{
+            color: $main-color;
+          }
+        }
+      }
+      .apartment-type__description{
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+/* Tour Type */
+.tour-type {
+  padding: 30px 0;
+  &__item {
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    .tour-type__thumbnail{
+      position: relative;
+      a{
+        overflow: hidden;
+        display: block;
+        img{
+          transition: all 0.3s;
+          border-radius: 5px;
+        }
+      }
+      &:hover{
+        a{
+          img{
+            transform: scale(1.1);
+          }
+        }
+      }
+      a {
+        position: relative;
+        &:before {
+          content: '';
+          display: block;
+          background: rgba(0, 0, 0, 0.3);
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          z-index: 9;
+        }
+      }
+    }
+
+    .tour-type__info{
+      text-align: center;
+      position: absolute;
+      width: 100%;
+      bottom: 15px;
+      color: #ff;
+      z-index: 99;
+      .tour-type__name{
+        font-size: 15px;
+        a{
+          color: #fff;
+          text-transform: uppercase;
+        }
+      }
+      .tour-type__description{
+        font-size: 14px;
+        color: #fff;
+      }
+    }
+  }
+}
+
+/* Space Type */
+.space-type {
+  padding: 30px 0;
+  &__item {
+    border: 1px solid #eee;
+    border-radius: 3px;
+    padding: 10px;
+    .space-type__thumbnail{
+      margin-bottom: 15px;
+      a{
+        overflow: hidden;
+        display: block;
+        img{
+          transition: all 0.3s;
+        }
+      }
+      &:hover{
+        a{
+          img{
+            transform: scale(1.1);
+          }
+        }
+      }
+    }
+
+    .space-type__info{
+      .space-type__name{
+        font-size: 15px;
+        &:hover{
+          a{
+            color: $main-color;
+          }
+        }
+      }
+      .space-type__description{
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+/* Hotel Type */
+.hotel-type {
+  padding: 30px 0;
+  &__item {
+    border: 1px solid #eee;
+    border-radius: 3px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    .hotel-type__thumbnail{
+      margin-bottom: 15px;
+      a{
+        overflow: hidden;
+        display: block;
+        img{
+          transition: all 0.3s;
+        }
+      }
+      &:hover{
+        a{
+          img{
+            transform: scale(1.1);
+          }
+        }
+      }
+    }
+
+    .hotel-type__info{
+      .hotel-type__name{
+        font-size: 15px;
+        &:hover{
+          a{
+            color: $main-color;
+          }
+        }
+      }
+      .hotel-type__description{
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+/* Beauty Type */
+.beauty-type {
+  padding: 30px 0;
+  &__item {
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    .beauty-type__thumbnail{
+      position: relative;
+      a{
+        overflow: hidden;
+        display: block;
+        img{
+          transition: all 0.3s;
+          border-radius: 5px;
+        }
+      }
+      &:hover{
+        a{
+          img{
+            transform: scale(1.1);
+          }
+        }
+      }
+      a {
+        position: relative;
+        &:before {
+          content: '';
+          display: block;
+          background: rgba(0, 0, 0, 0.3);
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          z-index: 9;
+        }
+      }
+    }
+
+    .beauty-type__info{
+      text-align: center;
+      position: absolute;
+      width: 100%;
+      bottom: 15px;
+      color: #ff;
+      z-index: 99;
+      .beauty-type__name{
+        font-size: 15px;
+        a{
+          color: #fff;
+          text-transform: uppercase;
+        }
+      }
+      .beauty-type__description{
+        font-size: 14px;
+        color: #fff;
+      }
+    }
+  }
+}
+
+@media(max-width: 991px){
+  .apartment-type {
+    &__item {
+      margin-top: 12px;
+      margin-bottom: 12px;
+    }
+  }
+  .tour-type {
+    &__item {
+      margin-top: 12px;
+      margin-bottom: 12px;
+    }
+  }
+  .beauty-type {
+    &__item {
+      margin-top: 12px;
+      margin-bottom: 12px;
+    }
+  }
+  .space-type {
+    &__item {
+      margin-top: 12px;
+      margin-bottom: 12px;
+    }
+  }
+  .hotel-type {
+    &__item {
+      margin-top: 12px;
+      margin-bottom: 12px;
+    }
+  }
+}
+
+@media(max-width: 767px){
+  .apartment-type {
+    padding: 0;
+  }
+  .tour-type {
+    padding: 0;
+  }
+  .beauty-type {
+    padding: 0;
+  }
+  .space-type {
+    padding: 0;
+  }
+  .hotel-type {
+    padding: 0;
+  }
+}

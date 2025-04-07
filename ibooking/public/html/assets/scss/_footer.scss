@@ -1,0 +1,82 @@
+.site-footer{
+  background-color: #212a30;
+  color: $gray-100;
+  a{
+    color: $gray-100;
+  }
+}
+.footer-top{
+  ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+    li{
+      font-size: 1.1rem;
+      margin-bottom: 7px;
+      a{
+
+      }
+    }
+  }
+  .widget{
+    &__title{
+      font-size: 1.2rem;
+      font-weight: 500;
+      margin-bottom: 15px;
+    }
+  }
+}
+.footer-bottom{
+  color: #a0afba;
+  text-align: center;
+  a{
+    color: #a0afba;
+  }
+  .menu-footer,.social-footer{
+    padding: 0;
+    margin: 15px 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    li{
+      list-style: none;
+      padding:5px 10px;
+      .gmz-icon svg{
+        width: 1rem;
+        height: 1rem;
+        fill: #a0afba;
+      }
+      ul{
+        display: none;
+      }
+    }
+  }
+}
+
+body{
+  &.search-page{
+    .site-footer{
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  body{
+    &.search-page{
+      .site-footer{
+        display: block;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .footer-top{
+    .widget{
+      margin-bottom: 40px;
+    }
+  }
+}
+

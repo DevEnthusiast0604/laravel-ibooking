@@ -1,0 +1,40 @@
+@import "mixins";
+@import "variables";
+@import "../vendor/bootstrap-4.0.0/scss/bootstrap-grid";
+@import "general";
+
+/*elements*/
+@import "elements/service-type";
+@import "elements/car-item";
+@import "elements/apartment-item";
+@import "elements/tour-item";
+@import "elements/space-item";
+@import "elements/hotel-item";
+@import "elements/beauty-item";
+@import "elements/room-item";
+@import "elements/location-item";
+@import "elements/search-form";
+@import "elements/search-filter";
+@import "elements/testimonial";
+@import "elements/breadcrumb";
+@import "elements/blog";
+@import "elements/element-other";
+@import "elements/beauty";
+/**/
+@import "other";
+@import "menu";
+@import "header";
+@import "content";
+@import "footer";
+@import "huan";
+@import "single";
+@import "comment";
+@import "page";
+@import "datepicker";
+@import "top-bar";
+@import "author";
+
+@import "rtl";
+
+
+

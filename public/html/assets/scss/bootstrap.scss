@@ -1,0 +1,11 @@
+//Custom bootstrap
+@import "../vendor/bootstrap-4.0.0/scss/bootstrap";
+.btn-primary {
+  color: #fff;
+  background-color: $main-color;
+  border-color: $main-color;
+  &:hover{
+    background-color: $main-color-hover;
+    border-color: $main-color-hover;
+  }
+}

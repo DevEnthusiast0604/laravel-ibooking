@@ -1,0 +1,53 @@
+/* List Locartion */
+.list-location {
+  overflow-x: hidden;
+}
+.location-item {
+  &__thumbnail{
+  }
+  &__title {
+    font-size: 1.45rem;
+    font-weight:550;
+    margin-bottom: 0;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    a{
+      &:hover{
+        color: $main-color
+      }
+    }
+  }
+
+  &__number-car {
+
+  }
+
+  &__find {
+    font-weight: 550;
+    color: $main-color;
+    margin-top: 5px;
+    display: inline-block;
+    &:hover {
+      color: $primary-600;
+    }
+  }
+  .count-service{
+    a{
+      color: $main-color;
+      &:not(:first-child) {
+        margin-left: 5px;
+        &:before {
+          content: '';
+          width: 5px;
+          height: 5px;
+          background: #dfdfdf;
+          border-radius: 50%;
+          display: inline-block;
+          position: relative;
+          top: -2px;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}

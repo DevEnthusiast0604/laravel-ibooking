@@ -1,0 +1,4 @@
+@mixin bg-gradient(){
+  background-color: #1abc9c;
+  background-image: linear-gradient(to right, #1abc9c, #007bff);
+}

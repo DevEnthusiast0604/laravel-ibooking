@@ -1,0 +1,238 @@
+.tour-item {
+  background: $white;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  position: relative;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.05);
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  &__label {
+    background-image: linear-gradient(135deg, #ff690f 0%, #e8381b 100%);
+    color: $white !important;
+    padding: 0.28rem 0.5rem;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 0.85rem;
+    border-radius: 8px;
+    &:hover {
+      color: $white;
+    }
+  }
+
+  &__title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    a{
+      &:hover{
+        color: $main-color
+      }
+    }
+  }
+
+  &__type {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  &__meta {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding: 13px 0 10px 0;
+
+    .meta-item{
+      width: 50%;
+      display: flex;
+      align-items: flex-start;
+      i{
+        font-size: 26px;
+        color: #fb6112;
+        margin-right: 8px;
+      }
+      .label{
+        line-height: 15px;
+        display: block;
+        font-weight: 500;
+        margin-bottom: 2px;
+      }
+      .value{
+        display: block;
+        color: gray;
+        font-weight: 500;
+      }
+    }
+  }
+
+  &__price {
+    ._retail {
+      font-size: 1.45rem;
+      font-weight: 500;
+      color: $text-price;
+      span{
+        font-size: 15px;
+        color: gray;
+        font-weight: 450;
+        margin-right: 5px;
+      }
+    }
+
+    ._unit {
+      color: $text-price;
+      font-size: 1rem;
+      margin-left: 0;
+
+      &:before {
+        content: "/";
+      }
+    }
+  }
+
+  &__view-detail{
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 9px;
+    padding: 7px 10px;
+  }
+
+  &--grid {
+  .tour-item__location{
+      background: #36bca1;
+      display: inline-block;
+      position: absolute;
+      width: auto;
+      color: #fff;
+      padding: 0.28rem 0.5rem;
+      bottom: -8px;
+      left: 5px;
+      font-size: 0.85rem;
+      border-radius: 8px;
+      font-weight: 500;
+    }
+    .tour-item__details {
+      padding: 10px 0 0 0;
+    }
+    .tour-item__thumbnail{
+      position: relative;
+      border-radius: 10px;
+      overflow: hidden;
+      img{
+        min-width: 100%;
+        transition: all 0.3s;
+        max-width: 100%;
+        height: auto;
+      }
+      &:hover{
+        img{
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+  &--list{
+    .tour-item__thumbnail{
+      position: relative;
+      height: 100%;
+      img{
+        min-width: 100%;
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+      }
+      .tour-item__label{
+        top: 8px;
+        left: 8px;
+      }
+    }
+    .tour-item__details{
+      padding-top: 0;
+      padding-bottom: 0;
+      padding-right: 0;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      &__location {
+        background: transparent;
+        display: inline-block;
+        position: relative;
+        width: fit-content;
+        color: #333;
+        padding: 0;
+        bottom: 0;
+        left: 0;
+        font-size: 13px;
+        border-radius: 8px;
+        font-weight: 450;
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
+
+.tour-item{
+  &__type {
+    position: absolute;
+    left: 6px;
+    bottom: 6px;
+    margin-bottom: 0;
+    background: $main-color;
+    border-radius: 0;
+    font-size: 12px;
+    padding: 2px 5px;
+    font-weight: 450;
+    color: #fff;
+    opacity: 0.8;
+
+    &:hover {
+      background: $main-color-hover;
+      color: #fff;
+      opacity: 1;
+    }
+  }
+}
+
+@media(max-width: 991px){
+  .tour-item{
+    &__title{
+      font-size: 1.2rem;
+    }
+    &__meta{
+      margin-bottom: 5px;
+      .i-meta{
+        &:not(:last-child){
+          margin-right: 10px;
+        }
+        &__icon{
+          .gmz-icon{
+            svg{
+              width: 16px;
+              height: 16px;
+            }
+          }
+        }
+        &__figure{
+          margin-left: 4px;
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: 575px){
+  .tour-item{
+    &--list{
+      .tour-item__details{
+        margin-top: 10px;
+        .d-flex.justify-content-between.align-items-center{
+          .btn.btn-primary{
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}

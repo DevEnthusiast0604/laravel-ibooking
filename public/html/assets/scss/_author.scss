@@ -1,0 +1,147 @@
+.author-page{
+  .site-header{
+    box-shadow: 1px 1px 3px #eee;
+  }
+  .author-sidebar{
+    border: 1px solid #dfdfdf;
+    padding: 20px;
+    margin-top: 60px;
+    .author-section1{
+      text-align: center;
+      border-bottom: 1px solid #dfdfdf;
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      .avatar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img{
+          border-radius: 50%;
+          border: 2px double $main-color;
+        }
+      }
+      p{
+        &.role{
+          display: inline-block;
+          margin-top: 0;
+          padding: 1px 10px;
+          border-radius: 3px;
+          color: #fff;
+          font-size: 12px;
+          font-weight: 550;
+          line-height: 17px;
+          margin-bottom: 15px;
+          &.admin{
+            background: #3f84da;
+          }
+          &.partner{
+            background: #daa32f;
+          }
+        }
+        &.name{
+          font-size: 18px;
+          font-weight: 550;
+          margin-bottom: 3px;
+          margin-top: 5px;
+        }
+        &.register-date{
+          font-size: 15px;
+        }
+      }
+    }
+    .author-section2{
+      p{
+        font-size: 16px;
+        font-weight: 450;
+        margin-bottom: 15px;
+        i{
+          min-width: 25px;
+          font-size: 19px;
+          margin-right: 5px;
+        }
+        &.email{
+          i{
+            position: relative;
+            top: 3px;
+          }
+        }
+        &.phone{
+
+        }
+        &.address{
+
+        }
+        &:last-child{
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+  .author-content{
+    margin-top: 60px;
+    padding-left: 20px;
+    margin-bottom: 60px;
+    .head{
+      border-bottom: 1px solid #eee;
+      padding-bottom: 30px;
+      margin-bottom: 30px;
+      .name{
+        margin-bottom: 0;
+      }
+      .description{
+        margin-top: 20px;
+        margin-bottom: 0;
+        font-size: 16px;
+      }
+    }
+    .services{
+      .service-tabs{
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 500;
+        .item{
+          margin-right: 25px;
+          border-bottom: 2px solid transparent;
+          padding-bottom: 10px;
+          display: inline-block;
+          &.active, &:hover{
+            color: $main-color;
+            border-bottom-color: $main-color;
+          }
+        }
+      }
+      .service-items{
+        margin-top: 35px;
+        .apartment-item{
+          box-shadow: none;
+          .apartment-item__meta{
+            .i-meta:not(:last-child){
+              margin-right: 10px;
+            }
+          }
+        }
+        .space-item{
+          box-shadow: none;
+          .space-item__meta{
+            .i-meta:not(:last-child){
+              margin-right: 10px;
+            }
+          }
+        }
+        .pagination-wrapper{
+          margin-top: 20px;
+          display: flex;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 991px){
+  .author-page{
+    .author-content{
+      padding-left: 0;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+// TOP BAR
+.top-bar{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 15px;
+  align-items: center;
+  @include media-breakpoint-down(sm){
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: revert;
+    &__left{
+      margin-bottom: 5px;
+    }
+  }
+  &__left{
+    display: flex;
+    align-items: center;
+  }
+  &__right{
+    display: flex;
+    justify-content: space-between;
+  }
+  &.top-bar--1{
+    background-color: #fff;
+    border-bottom: 1px solid #f1f2f3;
+  }
+  .select-language{
+    margin-top: 0;
+    min-width: 140px;
+    &:first-child{
+      margin-right: 5px;
+    }
+    .dropdown-toggle{
+      padding: 2px 5px;
+      color: #222222;
+      border-color: #f1f2f3;
+      &:after{
+        right: 5px;
+      }
+    }
+    .dropdown-item{
+      padding: 0.25rem 0.5rem;
+    }
+  }
+  .promo{
+
+  }
+}

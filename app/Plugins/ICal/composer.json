@@ -1,0 +1,6 @@
+{
+    "require": {
+        "eluceo/ical": "^2.3",
+        "johngrogg/ics-parser": "^3.0"
+    }
+}

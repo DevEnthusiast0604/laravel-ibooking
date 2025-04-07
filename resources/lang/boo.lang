@@ -1,0 +1,1466 @@
+Bank Transfer
+Enable
+Name
+Description
+Logo
+The order is not exists.
+Paypal
+Test Mode
+Client ID
+Secret key
+Stripe
+Publishable key
+Incomplete
+Completed
+Cancelled
+Refunded
+Cancel order
+Complete
+Unpaid
+Paid
+Reply
+Cancel
+minute ago
+minutes ago
+hour ago
+hours ago
+Menu name
+Menu URL
+Open link in a new tab
+Type:
+Remove to wishlist
+Add to wishlist
+Found <b>1 Car</b>
+Found <b>1 Car</b> from <b>%s</b> to <b>%s</b>
+Found <b>1 Car</b> in <b>%s</b>
+Found <b>1 Car</b> in <b>%s</b> from <b>%s</b> to <b>%s</b>
+Found <b>%s Cars</b>
+Found <b>%s Cars</b> from <b>%s</b> to <b>%s</b>
+Found <b>%s Cars</b> in <b>%s</b>
+Found <b>%s Cars</b> in <b>%s</b> from <b>%s</b> to <b>%s</b>
+No Cars found
+Found <b>1 Apartment</b>
+Found <b>1 Apartment</b> from <b>%s</b> to <b>%s</b>
+Found <b>1 Apartment</b> in <b>%s</b>
+Found <b>1 Apartment</b> in <b>%s</b> from <b>%s</b> to <b>%s</b>
+Found <b>%s Apartments</b>
+Found <b>%s Apartments</b> from <b>%s</b> to <b>%s</b>
+Found <b>%s Apartments</b> in <b>%s</b>
+Found <b>%s Apartments</b> in <b>%s</b> from <b>%s</b> to <b>%s</b>
+No Apartments found
+Found <b>1 Tour</b>
+Found <b>1 Tour</b> from <b>%s</b> to <b>%s</b>
+Found <b>1 Tour</b> in <b>%s</b>
+Found <b>1 Tour</b> in <b>%s</b> from <b>%s</b> to <b>%s</b>
+Found <b>%s Tours</b>
+Found <b>%s Tours</b> from <b>%s</b> to <b>%s</b>
+Found <b>%s Tours</b> in <b>%s</b>
+Found <b>%s Tours</b> in <b>%s</b> from <b>%s</b> to <b>%s</b>
+No Tours found
+Found <b>1 Space</b>
+Found <b>1 Space</b> from <b>%s</b> to <b>%s</b>
+Found <b>1 Space</b> in <b>%s</b>
+Found <b>1 Space</b> in <b>%s</b> from <b>%s</b> to <b>%s</b>
+Found <b>%s Space</b>
+Found <b>%s Space</b> from <b>%s</b> to <b>%s</b>
+Found <b>%s Space</b> in <b>%s</b>
+Found <b>%s Space</b> in <b>%s</b> from <b>%s</b> to <b>%s</b>
+No Space found
+Found <b>1 Hotel</b>
+Found <b>1 Hotel</b> from <b>%s</b> to <b>%s</b>
+Found <b>1 Hotel</b> in <b>%s</b>
+Found <b>1 Hotel</b> in <b>%s</b> from <b>%s</b> to <b>%s</b>
+Found <b>%s Hotels</b>
+Found <b>%s Hotels</b> from <b>%s</b> to <b>%s</b>
+Found <b>%s Hotels</b> in <b>%s</b>
+Found <b>%s Hotels</b> in <b>%s</b> from <b>%s</b> to <b>%s</b>
+No Hotels found
+Found <b>1 Beauty</b>
+Found <b>1 Beauty</b> on <b>%s</b>
+Found <b>1 Beauty</b> in <b>%s</b>
+Found <b>1 Beauty</b> in <b>%s</b> on <b>%s</b>
+Found <b>%s Beauty</b>
+Found <b>%s Beauty</b> on <b>%s</b>
+Found <b>%s Beauty</b> in <b>%s</b>
+Found <b>%s Cars</b> in <b>%s</b> on <b>%s</b>
+No Beauty found
+per hour
+per day
+All
+Auto
+Manual
+Draft
+Pending
+Publish
+Admin
+Partner
+Customer
+Accept
+Login successfully
+Login failed. Please check your credentials again.
+Please agree with our terms and conditions
+Register successfully
+[%s] Account Approved
+[%s] Partner Registration
+[%s] Contact Email
+[%s] %s Booking Enquiry
+[%s] %s Booking Request
+[%s] Approved Account
+[%s] User Registration
+General
+Status
+Media
+Avatar
+Availability
+Custom Pricing
+Title
+Permalink
+Content
+Short Description
+Is Featured
+Type
+Booking Form
+Instant
+Enquiry
+Instant & Enquiry
+Location
+Pricing
+Base Price
+Discount By Number Of Day
+From
+To
+Price
+Extra Services
+Required
+Enable External Booking
+External Link
+Custom Price
+Amenities
+Number of Guest
+Number of Bedrooms
+Number of Bathrooms
+Size (m2/ft)
+Apartment Amenities
+Featured Image
+Gallery
+Video
+Policies
+Enable Cancellation
+Cancel Before (Days)
+Cancellation Detail
+Partner's Earnings
+Post
+Posts
+Page
+Pages
+Car
+Cars
+Apartment
+Apartments
+Tour
+Tours
+Hotel
+Hotels
+Space
+Beauty Services
+Beauty
+Agent
+Primary
+Trash
+Your Profile
+Notifications
+My Orders
+Wishlist
+Earnings Report
+Analytics
+Withdrawal
+All Posts
+Add new
+Category
+Tag
+Comments
+All Pages
+All Services
+All Hotels
+Add new Hotel
+Property Types
+Facilities
+Hotel Services
+Room Facilities
+Reviews
+Orders
+All Apartments
+Types
+All Cars
+Features
+Equipments
+All Space
+All Tours
+Tour Includes
+Tour Excludes
+All Beauty
+Service Categories
+Branch
+System
+Settings
+Menus
+Plugins
+Themes
+Users
+All Users
+Partner Request
+Language
+Setup
+Translation
+Coupon
+Tools
+Import Data
+SEO
+Attribute
+Select Category
+Select Branch
+Available space per service
+Service Starts
+Service Ends
+Service Duration
+Select Agent
+Days off of the week
+Car Type
+Number
+Insurance Plan
+Fixed Price
+Passenger
+Gear Shift
+Baggage
+Door
+Car Features
+Code
+Discount(%)
+Start Date
+End Date
+Hotel Star
+5 Star
+4 Star
+3 Star
+2 Star
+1 Star
+Property Type
+What\'s Nearby
+Distance
+Education
+Health
+Top Attractions
+Restaurants & Cafes
+Natural Beauty
+Closest Airports
+Checkin Time
+Checkout Time
+Min Day Before Booking
+Min Day Stays
+Hotel Facilities
+FAQs
+Question
+Answer
+Hotel Logo
+Attributes
+Categories
+Tags
+Room Footage
+Number Of Room
+Number Of Bed
+Number Of Adult
+Number Of Children
+Home Page
+Hotel Page
+Apartment Page
+Car Page
+Space Page
+Beauty Page
+Tour Page
+Hotel Search Page
+Apartment Search Page
+Car Search Page
+Space Search Page
+Beauty Search Page
+Tour Search Page
+Blog Page
+Become a Partner Page
+Contact Us Page
+SEO Title
+Meta Description
+Facebook Image
+Facebook Title
+Facebook Description
+Twitter Image
+Twitter Title
+Twitter Description
+Single Post
+Single Page
+Single Hotel
+Single Apartment
+Single Car
+Single Space
+Single Tour
+Single Beauty
+Booking
+Services
+Appearance
+Email
+Invoice
+Advanced
+Site Name
+Site Description
+Admin User
+Favicon
+Logo dashboard
+Styling
+Main Color
+Custom CSS
+Other
+Header Code
+You can add custom code to head of page in here. Ex: Google Analytics code
+Footer Code
+You can add custom code to foot of page in here.
+Text on slider
+Slider
+List Destinations
+Feature Image
+Latitude
+Longitude
+Testimonial
+Blog
+Feature Image On Blog Page
+Contact
+Feature Image On Contact Page
+Heading
+Address
+Phone
+Currencies
+Symbol
+Unit
+Exchange Rate
+Position
+Left ($99)
+Left With Space ($ 99)
+Right (99$)
+Right With Space (99 $)
+Thousand Separator
+Decimal Separator
+Currency Decimal
+Primary Currency
+Tax is included?
+Tax (%)
+Commission (%)
+Payment Gateways
+Payment Tab
+Need Approve to Publish
+Display owner info in detail page
+Search Radius
+are calculated in kilometers from the searched location
+Search Number Items
+Enable Post Review
+Enable Service Review
+Need Booking To Review
+Need Approve To Publish Review
+Footer
+First Widget Heading
+First Widget
+Second Widget Heading
+Second Widget
+Third Widget Heading
+Third Widget
+Footer Menu
+Copyright
+Social
+Icon
+Url
+Top bar
+Display
+Promo Title
+Coupon Code
+Button Text
+SEE NOW
+Button Url
+GDPR Cookies
+Enable GDPR Cookies
+Hide After Click
+Left
+Right
+Manage Text
+Banner Heading
+Banner Description
+Banner Link Text
+Policy Page
+Button Accept Text
+Button Reject Text
+Logo Email
+Enable Queue Mail
+Config Email
+Host
+Username
+Password
+Port
+Encryption
+Invoice Logo
+Company Name
+Terms and Conditions Page
+Site Language
+Multi Language
+Is RTL Layout
+Date Format
+Time Format
+Time Type
+12h
+24h
+Unit Of Measure
+m2
+ft2
+Mapbox Token
+Social Login
+Social Network
+Facebook Login
+App ID
+App Secret
+Callback Url
+Google Login
+Client Secret
+Redirect Url
+Booking Type
+Per Day
+Per Hour
+Space Amenities
+Parent
+Image
+Branch Name
+Duration
+Group Size
+Adult Price
+Children Price
+Infant Price
+Date
+HighLight
+Itinerary
+First Name
+Last Name
+Role
+Add new agent
+Edit agent
+Edit apartment
+Add new apartment
+Add new beauty services
+Edit beauty
+Edit car
+Add new car
+Please fill all the fields
+%s - Checking Email
+Sent email successfully
+Sent email failed. Please check your SMTP info again.
+Edit hotel
+Add new hotel
+Your site has been imported at %s
+Importing demo data successfully
+Checking text is invalid
+Delete icon successfully
+Delete icon failed
+Please select .ZIP or .SVG file format
+%s icon has been upload successfully
+%s icons has been upload successfully
+No icons imported
+You need choose font file before importing
+Edit page
+Add new page
+System Alert
+The Plugin has been updated successfully
+Can not update this plugin. Please try again!
+Data is invalid
+The Plugin has been installed successfully
+Activate
+Can not install this plugin. Please try again!
+Deactivate plugin successfully!
+The Plugin has been removed successfully
+Active plugin successfully!
+Edit post
+Add new post
+Edit room
+Add new room
+Are you sure want to do it?
+Next
+Previous
+Finish
+Update successfully
+Edit space
+Add new space
+Can not add this term
+Can not edit this term
+Can not delete this term
+The Theme has been updated successfully
+Can not update this theme. Please try again!
+The Theme has been installed successfully
+Can not install this theme. Please try again!
+Deactivate theme successfully!
+The Theme has been removed successfully
+Active theme successfully!
+Edit tour
+Add new tour
+Update database successfully
+Your request has been sent. Please wait administrator review it.
+Your cancel request has been sent. Thank you.
+Quick Action
+New Post
+New Page
+New Hotel
+New Apartment
+New Tour
+New Car
+New Space
+Manage Menu
+No Notifications found!
+My Profile
+No data
+Size/Type
+Action
+Author: %s
+Delete
+Email To
+Close
+Submit
+Discard
+Save
+Media Detail
+ID: %s
+Size: %s KB
+Type: %s
+Created At: %s
+Detail
+Change log
+City
+Country
+Postcode
+Note
+By
+At
+Payout Account
+Drop files here or click to upload.
+Only JPG, PNG, JPEG, SVG, GIF files types are supported.
+Maximum file size is %s MB.
+Select
+Coupons
+Add New
+Date Range
+Edit
+Email Checker
+Subject
+Dashboard
+for all user
+for
+Partner\'s Earning
+ID
+User Name
+User Email
+Total
+Net Earnings
+Balance
+Analytic
+Withdrawal request
+The maximum amount you can withdraw is
+Money
+Create at
+Import Demo Data
+Your old data will be reset after importing demo data. Please be careful!
+Please enter <b>"Import"</b> text into textbox below
+Import now!
+Import SVG Icon
+Drop SVG files or .zip file here or click to select file upload.
+Your files has been selected
+Upload Your Icon
+<a target="_blank" href="https://docs.booteam.co/ibooking/dashboard/icons">How to upload your SVG icon.</a> Please refer our document for more details.
+Icons
+Custom Icon
+System Icon
+Typing to search icon...
+Coppied
+Copy to clipboard
+Languages
+Setup Language
+---- Select ----
+Flag Icon
+No Flags
+Display name
+Right to Left
+All Languages
+RLT
+Yes
+No
+No languages yet.
+Scan Text
+Select language
+Save Translation
+Please select a language before translating
+Enter search text...
+Search
+Origin Text
+Translation Text
+No Text to translate
+:number items
+All Media
+Bulk Delete
+No menu selected.
+Menu name:
+Save menu
+Origin:
+Display location
+None
+Delete this menu
+Menu
+No apartment found
+Add to menu
+No beauty found
+No car found
+No categories found
+No hotel found
+Custom Link
+URL
+No pages found
+No posts found
+No space found
+No tags found
+No tour found
+Menu Items
+MENU
+--- Select ---
+Create new Menu
+All Notifications
+All Orders
+Service
+to
+Apartment Orders
+Beauty Orders
+Car Orders
+sort by start date
+Hotel Orders
+search
+Filter by Status
+Refund request
+Payment Confirmation
+Unfinished
+Filter
+Clear Filter
+Clear
+Space Orders
+Tour Orders
+Update new version
+Plugin Details
+Activated
+Deactivate
+Version: %s
+No plugins
+Add Plugins
+Install
+SEO Options
+Facebook
+Twitter
+Copied
+Copy
+SEO Variables
+The Post Title
+The Post Description
+The Site Name
+The Site Description
+The Separator Character
+SEO Enable
+Enable SEO Option
+Title Separator
+Choose the symbol to use as your title separator. This will display, for instance, between your post title and site name. Symbols are shown in the size they\'ll appear in the search results.
+Robots.txt
+SEO Tools
+Static Page
+Content Types
+Sitemap
+Webmaster Tools
+Save Changes
+Enable Sitemap
+Sitemap URL
+Webmaster Tools verification
+Google verification code
+Bing verification code
+Yandex verification code
+Baidu verification code
+All Agents
+Agents
+All Agent
+Restore
+Delete Permanently
+View
+Preview
+Apartment Reviews
+Info
+Title:
+In:
+Beauty Reviews
+Quantity
+Car Reviews
+Manage Rooms
+Hotel Reviews
+All Rooms
+Number of Room
+Space Reviews
+Tour Reviews
+Back to all
+Theme Details
+Current Theme
+No themes
+Add Themes
+Partners Request
+Approve
+Profile
+Your profile
+Add image
+Remove
+Leave empty if you don\'t want to change password
+Confirm Password
+Save changes
+On hold
+Statistics
+View orders need refund
+view orders need confirmation
+view pending withdrawal
+Orders need refund
+Orders need confirmation
+Pending withdrawal
+Pending Tasks
+Total Profit
+Revenue
+More
+Sales
+Total Commission
+Total Earnings
+Total Orders
+Transactions
+There are no services enabled!
+View Detail
+Total Notifications
+Become to Partner
+Your request to become a partner is waiting for administrator approval.
+Payout account
+Provide your account information so we can pay you.
+Number of Night
+Number of Adult
+Number of Children
+Number of Infant
+Payment Method
+Payment Status
+Extra Price
+Sub Total
+Tax
+(included)
+Total Amount
+Time Slot
+Number of Days
+Fixed
+Equipment Price
+Insurance Price
+Check In
+Check Out
+Total rooms
+Number of children
+Room Details
+%s room
+%s rooms
+Refresh
+Today
+Unavailable
+Booked
+On Booking
+A
+C
+I
+G
+Available
+Unavailble
+Remove from calendar
+Set Availability
+You can select and drag dates to set a range of date
+Custom price
+Sort
+Checking Email
+Add icon
+ICON LIBRARY
+FONT ICON
+SVG ICON
+ICON TYPE
+Solid
+Regular
+Light
+Brands
+Search icon
+Icon data
+Prev
+Drop SVG/.zip file or click to select file upload.
+Upload
+<a target="_blank" href="https://docs.booteam.co/ibooking/dashboard/icons">How to upload your SVG icon.</a>
+ICONS SVG
+Visit page
+Real Address
+Search on the map
+Longtitude
+Field "' . $field['type'] . '" is not exists!
+---No parent---
+Select a value
+Adddress
+No Data
+Settings Page
+No config fields
+Car Types
+Car Equipments
+Apartment Types
+Beauty Branch
+Space Types
+Tour Types
+Tour Include
+Tour Exclude
+New Tour Include
+New Tour Exclude
+Edit Tour Include
+Edit Tour Exclude
+Your site has been installed at %s
+Guest
+Guests
+Infant
+Infants
+Adult
+Adults
+Children
+Featured
+Bedroom
+Bathroom
+Size
+Apply
+Custom
+Sun
+Mo
+Tu
+We
+Th
+Fr
+Sa
+January
+February
+March
+April
+May
+June
+July
+August
+September
+October
+November
+December
+Setting
+Font Icon
+New
+Logout
+Time
+End Time
+Home
+Category: %s
+Tag: %s
+View All
+Become A Partner
+Sign In
+EMAIL
+Your email
+PASSWORD
+Forgot Password?
+Your password
+LOGIN
+OR
+Google
+Not registered ?
+Create an account
+Sign Up
+FIRST NAME
+LAST NAME
+I agree to the <a href="%s">  terms and conditions </a>
+REGISTER
+Already have an account?
+Login
+Password Recovery
+RESET
+Enter your email and instructions will sent to you!
+SORT BY
+Low to High
+High to Low
+A - Z
+Z - A
+List View
+Grid View
+List Of Blog
+News
+On
+In
+Posted by %s
+Hello
+Have new booking request for Apartment "%s"
+Booking detail
+Apartment ID:
+Apartment Name:
+Customer Name:
+Customer Email:
+Message:
+A new order has been created on the site
+Order Information
+Apartment Name
+Invoice ID
+Form
+Personal Information
+Bank Information
+Manage Order
+Have new booking request for Beauty "%s"
+Beauty ID:
+Beauty Name:
+Have new booking request for Car "%s"
+Car ID:
+Car Name:
+Car Name
+Have new booking request for Hotel "%s"
+Hotel ID:
+Hotel Name:
+Hotel Name
+Number Of Days
+Total Rooms
+A new account has been created on the site
+Manage User
+New partner registration request
+Manage Partner
+Have new booking request for Space "%s"
+Space ID:
+Space Name:
+Space Name
+Have new booking request for Tour "%s"
+Tour ID:
+Tour Name:
+Tour Name
+Have new message from contact form
+Subject:
+Message
+You have created new order successfully
+Your account have been created on site. You can login to use the website now. Wish you have a pleasant experience.
+Login Now
+Congratulations, your account has been approved as a partner
+Have an order request for your Apartment
+Have an order request for your Car
+Have an order request for your Hotel
+Your partner account has been approved. You can login as partner user now.
+Partner account request successful! Please wait admin review your account. Now, you can login as normal user on site
+Have an order request for your Space
+Have an order request for your Tour
+404
+Ooops!
+The page you requested was not found!
+Go Back
+500
+Internal Server Error!
+503
+Service Unavailable!
+Installer
+Error 404 Page
+I accept %s
+Terms and Conditions
+SUBMIT REQUEST
+Why partner on iBooking?
+Join our community and start uploading your properties. We make it simple and secure to host travelers.
+How does it work?
+Set up your property
+Explain what’s unique, show off with photos, and set the right price
+Get the perfect match
+We’ll connect you with travelers from home and abroad
+Start earning
+We’ll help you collect payment, deduct a commission, and send you the balance
+Why be a Partner?
+Earn an additional income
+Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+Open your network
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+Practice your language
+Checkout
+Select Payment Method
+No payments available
+CHECKOUT
+An account will be created automatic by your email.
+Cart is empty
+Thankyou
+Thanks for your order!
+Woot! You successfully made a payment with
+We just sent your receipt to your email address.
+Back to home
+My order
+Please make a payment using the details below to complete your order.
+No orders found!
+You can review your order in booking history.
+From - To
+Period
+%s day
+%s days
+%s night
+%s nights
+%s hour
+%s hours
+Check In - Check Out
+Total amount
+We'll email your order completed as soon as we receive your money. This might take a moment but feel free to close this page.
+Contact Us
+Full Name
+Address: %s
+Phone: %s
+Email: %s
+List Of Destinations
+%s Car
+%s Cars
+%s Apartment
+%s Apartments
+%s Space
+%s Tour
+%s Tours
+%s Hotel
+%s Hotels
+%s Beauty
+There are %s Apartment
+There are %s Apartments
+There are %s Tour
+There are %s Tours
+There are %s Space
+There are %s Car
+There are %s Cars
+There are %s Hotel
+There are %s Hotels
+There are %s Beauty
+Find %s
+Number of infant
+Have a coupon?
+Find Apartment
+per night
+List Of Apartments
+Start Time
+%s Guest
+%s Guests
+, %s Infant
+, %s Infants
+/night
+/hour
+BOOK NOW
+External link
+required
+Apartments Near By
+%s review for this Apartment
+%s reviews for this Apartment
+Leave a Review
+Your email address will not be published. Required fields are marked *
+Your rating
+Your name*
+Your email*
+Comment title*
+Comment*
+Submit Review
+Bedrooms
+Bathrooms
+Customers can cancel this Apartment before %s day(s)
+Apartment On Map
+Check Availability
+Find Beauty
+List Of Beauty
+Feature
+times
+Beauty Services Search Page
+This service could not be used
+Slot
+No available slots have been found
+No available agents have been found
+Services are nearby
+Facility\'s other services
+%s review for this Beauty
+%s reviews for this Beauty
+mins
+Customers can cancel this Space before %s day(s)
+Beauty Service On Map
+Find Car
+Doors
+List Of Cars
+Pick-up
+Return
+/day
+Cars Near By
+%s review for this car
+%s reviews for this car
+Gear shift
+Customers can cancel this Car before %s day(s)
+Car On Map
+Number of days
+Star
+Find Hotel
+night
+List Of Hotels
+%s Adult
+%s Adults
+, %s Children
+Rooms
+Room Availability
+Book Now
+Send Enquiry
+Details
+Total Room
+Total Price
+from %s review
+from %s reviews
+Checkin
+M.D.B.B
+M.D Stay
+Min day before booking
+Min day stay
+ENQUIRY FORM
+CLOSE
+Closest Education
+Closest Health
+Top attractions
+Hotels Near By
+Customers can cancel this Hotel before %s day(s)
+%s review for this Hotel
+%s reviews for this Hotel
+ROOM DETAILS
+Base price: %s
+Room Size
+No rooms available!
+Check In-Out
+CHECK AVAILABILITY
+Hotel On Map
+Recent posts
+By %s
+No posts found!
+%s comment for this post
+%s comments for this post
+Post Comment
+Author
+Find Space
+List Of Space
+By Day
+By Hour
+Space Near By
+%s review for this Space
+%s reviews for this Space
+Space On Map
+Includes
+Excludes
+Find Tour
+%s people
+List Of Tours
+Includes/Excludes
+Tours Near By
+%s review for this Tour
+%s reviews for this Tour
+Highlight
+Customers can cancel this Tour before %s day(s)
+Tour On Map
+Author Page
+Member since %s
+Hi, I\'m %s
+Log in to your account to continue.
+Log In
+Register
+Log in
+I agree to the %s
+terms and conditions
+Reset
+Create new password with in the this form!
+New password
+Password confirm
+Reset Password
+Authorize.Net
+Card name is required
+Card number is required
+CVV code is required
+Is Sandbox
+API Login ID
+Transaction Key
+Name on the Card (*)
+Card name
+Card number (*)
+Your card number
+Month (*)
+Month
+Year (*)
+Year
+CVV (*)
+This service is not available
+Please agree with our Terms and Conditions
+Your email already exists. Please login with that email or use another email
+Have an error when creating new user. Please try again.
+Data is invalid.
+Select Staff
+Select Time
+Business Name
+Open Time
+Weekdays
+Opening Time
+Closing Time
+%s mins
+No services selected yet
+with
+Booking Service
+Book now
+Featured venues
+User Detail
+About %s
+See directions
+Opening time
+Venues near %s
+Book with staff
+BlueSnap
+API Key
+API Password
+Braintree
+Merchant ID
+Public Key
+Private Key
+Tawk.to Widget Code
+Document
+Account
+Contact Form
+Login Email
+Register Email
+Reset Password Email
+Partner Request Email
+Partner Approve Email
+Email Content
+Email Content Creator
+Register email for Admin
+Register email for User
+Reset password email
+Partner request email for Admin
+Partner request email for Partner
+Partner approved email
+Email Shortcode
+Shortcode
+Select service
+Ical has been imported successfully.
+iCal Auto-Sync
+Calendar Type
+Google Calendar
+Airbnb Calendar
+Other Calendar
+iCal URL
+iCal auto-sync time
+Time Value
+Hour
+Minute
+Export iCal URL
+Invoice - %s
+INVOICE
+Invoice #%s
+Created: %s
+AMOUNT
+BILLING TO
+BOOKING DETAIL
+Service Name
+Back to Editor...
+Page Saved!
+Search Form
+Display search form on home page
+Settings service tab in the search form
+Picker Group
+Image Group
+Show list of destination with count of service
+Show list of property types of Hotel
+Display a space between elements
+Back to Editor
+Edit with Page Builder
+Settings Section
+Layout
+Margin
+Desktop
+Tablet
+Mobile
+Top
+Bottom
+Padding
+Content width
+Boxed
+Full Width
+Column Gap
+Default
+No Gap
+Css ID
+Css Class
+Styles
+Background Color
+Choose a color
+Transparent
+Responsive
+Hide On Desktop
+Hide On Tablet
+Hide On Mobile
+Reverse Columns (Mobile)
+Settings:
+No form fields
+VIEW PAGE
+SAVE CHANGE
+SELECT YOUR STRUCTURE
+Edit Section
+Delete Section
+New Widget
+PayU
+Payment failed
+%s Reservation
+%s - Order #%s
+Pos ID
+Second Key
+Securionpay
+Have an error when doing it
+Secret Key
+Skrill
+Skrill Email
+Skrill Password
+Submit Form
+Saving data successfully
+Saving data failed
+Delete successfully
+Send your request successfully. Please wait response from owner of this service.
+Date is invalid
+Date range is not available
+Date is not available
+Time range is not available
+Please select a valid datetime
+Please select a valid time
+The maximum number of guests is %s
+Restore successfully
+The check in or check out field is not empty.
+The check out is later than the check in field.
+Remove unavailability successfully
+Successfully
+Remove custom price successfully
+The price field is required.
+The price field is not a number.
+No records have been updated
+The adult price field is required.
+The adult price field is not a number.
+The children price field is not a number.
+The infant price field is not a number.
+The group size field is not a number.
+Load More
+No more
+Something went wrong, please reload the web page.
+This item is invalid
+Delete Successfully
+Can not delete this item
+Updated Successfully
+Can not update this item
+Review function was closed
+comment
+review
+Add new %s successfully
+Add new %s successfully. Your %s needs to be moderated before publishing
+Can not add this %s
+Some fields is incorrect
+This coupon is invalid
+Apply coupon successfully
+Remove coupon successfully
+Can not update this coupon
+Delete coupon successfully
+This coupon already exists.
+The discount value is invalid.
+Start date need to less than end date.
+Update term successfully
+Update term failed
+Edit Coupon
+Add new coupon successfully
+Add new coupon failed
+Data is invalid. Please search room again.
+Translate failed
+Please choose language before translating
+Translated successfully
+Scan failed
+No text translation
+Update failed
+This Language is invalid
+This language is deleted
+Can not delete this language
+This language is invalid
+Can not update this language
+Language is required
+Name is required
+Flag is required
+This language already exists
+Update language successfully
+Can not edit this language
+Create new language successfully
+Can not create this language
+Loaded Media
+Not found media
+Delete failed
+The attachment %s is uploaded successfully
+Have error when saving
+Have error when uploading
+This file is invalid
+This menu is invalid
+This Menu is deleted
+Can not delete this menu
+This Menu is invalid
+Created menu successfully
+Updated menu successfully
+Please create new menu before doing it
+Sort payment successfully.
+Sort Payment
+Save changes successfully
+Save changes failed
+Not found icons
+Alert System
+This Car is not available
+This Beauty is not available
+This service is not available.
+The order is invalid
+The time limit for you to cancel your order has expired
+Fail! You cannot do this
+Success!
+Send your request successfully.
+Minimum day number is %s
+You must book the service 2 days from the current date
+Delete term successfully
+This term already exists.
+Sync failed.
+Add new term successfully
+Add new term failed
+Tour is not available
+This tour has only %s slots left
+Adult: %s
+Child: %s
+Infant: %s
+User already exists.
+New Partner request
+New Partner request on
+Send your request successfully. Please wait admin review your account. Now, you can login as normal user on site
+Send your request failed
+Partner was approved
+Your partner account has been approved on
+Update user successfully
+Delete user successfully
+This user already exists.
+Update user failed
+New user was created
+New User was create on
+Add new user successfully
+Add new user failed
+Edit User
+The phone may not be greater than 20.
+The total amount you requested to withdraw is already greater than the amount you can withdraw.
+You have successfully requested your withdrawal.
+The amount you want to withdraw is incorrect
+Payout account not available
+Text Group
+Text
+Textarea
+Where are you going?
+Check in
+Add dates
+Check out
+Add guests
+Ages 13 or above
+Ages 2–12
+Under 2

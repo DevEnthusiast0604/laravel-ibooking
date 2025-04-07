@@ -1,0 +1,261 @@
+.post-comment {
+  border: 1px solid #d9d9d9;
+  border-radius: 3px;
+  padding: 20px;
+  margin-top: 50px;
+
+  .comment-title {
+    font-weight: 400;
+    color: $black;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 17px;
+  }
+
+  .comment-form-wrapper {
+    .notice {
+      color: #7a7a7a;
+      font-size: 13px;
+      margin-bottom: 20px;
+    }
+
+    .comment-form {
+      position: relative;
+
+      input[type="text"] {
+
+      }
+
+      input[type="email"] {
+
+      }
+
+      textarea {
+
+      }
+
+      .review-select-rate {
+        display: flex;
+        align-items: center;
+        margin-top: 4px;
+
+        span {
+          font-size: 15px;
+          margin-right: 10px;
+          font-weight: 500;
+        }
+
+        .fas-star {
+          .fa {
+            font-size: 20px;
+            margin: 3px 0;
+            color: gray;
+            cursor: pointer;
+
+            &.hovered,
+            &.selected {
+              color: darkorange;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .btn-primary{
+    background: $main-color;
+    border-color: $main-color
+  }
+}
+
+.gmz-comment-list {
+  .comment-count {
+    color: $black;
+    border-bottom: 2px solid #d8d8d8;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    display: block;
+    font-size: 22px;
+    font-weight: 400;
+  }
+  ul {
+    padding-left: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+
+    li {
+      list-style: none;
+      padding-bottom: 30px;
+      margin-bottom: 30px;
+      position: relative;
+      border: 1px solid #dfdfdf;
+      padding: 15px;
+      border-radius: 2px;
+
+      .comment-child {
+        margin-left: 40px;
+        margin-top: 30px;
+        border-top: 1px solid #eee;
+        padding-top: 30px;
+
+        li {
+          &:last-child {
+
+          }
+        }
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      .article {
+        .comment-item-head {
+          .media {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+
+            .media-left {
+              margin-right: 15px;
+
+              img {
+                border-radius: 50%;
+              }
+            }
+
+            .media-body {
+              flex: 1;
+
+              .media-heading {
+                margin-top: 0;
+                color: $black;
+                font-size: 14px;
+                margin-bottom: 4px;
+              }
+
+              .date {
+                color: #7a7a7a;
+                font-size: 12px;
+                font-style: italic;
+              }
+            }
+          }
+        }
+
+        .comment-item-body {
+          margin-top: 20px;
+
+          .comment-content {
+            font-size: 14px;
+            color: #5a5a5a;
+
+            .comment-title {
+              color: $black;
+              font-size: 15px;
+              margin-bottom: 5px;
+              font-weight: 500;
+            }
+
+            .star-rating {
+              display: inline-flex;
+              align-items: center;
+              margin-bottom: 15px;
+
+              .fa-star {
+                color: darkorange;
+                font-size: 12px;
+                margin-right: 3px;
+
+                &.star-none {
+                  color: #d7dce3;
+                }
+              }
+            }
+
+            p {
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+
+      .reply-box-wrapper {
+        text-align: right;
+        .btn {
+          padding: 3px 10px;
+          background: $main-color;
+        }
+
+        .btn-reply {
+
+        }
+
+        .btn-cancel-reply {
+          display: none;
+        }
+
+        &.active {
+          .btn-reply {
+            display: none;
+          }
+
+          .btn-cancel-reply {
+            display: inline-block;
+          }
+        }
+
+        .post-comment.append-form {
+          text-align: left;
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+  .pagination {
+    margin-top: 40px;
+    li{
+      margin-right: 7px;
+      margin-bottom: 0;
+      padding: 0;
+      border: none;
+      .page-link{
+        position: relative;
+        display: block;
+        padding: 0.5rem 0.75rem;
+        margin-left: 0;
+        line-height: 16px;
+        color: $main-color;
+        background-color: #fff;
+        border: 1px solid #dee2e6;
+        border-radius: 2px;
+        min-width: 32px;
+        height: 32px;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 500;
+      }
+      &:first-child,
+      &:last-child{
+        .page-link {
+          font-size: 28px;
+          line-height: 10px;
+        }
+      }
+      &:hover{
+        .page-link{
+          background: #eee;
+        }
+      }
+      &.active{
+        .page-link{
+          background: $main-color;
+          color: $white;
+        }
+      }
+    }
+  }
+}

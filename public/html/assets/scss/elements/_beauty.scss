@@ -1,0 +1,280 @@
+.booking-form--beauty {
+  position: relative;
+  .booking-price {
+    background: var(--primary);
+    padding: 10px 20px;
+    position: relative;
+    overflow: hidden;
+
+    .price-label {
+      color: #f8f8f8;
+      font-size: 18px;
+    }
+
+    .price-value {
+      font-weight: 550;
+      font-size: 27px;
+      color: #fff;
+      position: relative;
+      top: 1px;
+      margin-left: 5px;
+    }
+
+    .price-unit {
+      color: #f8f8f8;
+      font-size: 18px;
+      position: relative;
+      top: -1px;
+    }
+  }
+
+  .select-date,
+  .booking-slot,
+  .booking-agent {
+    > label, {
+      display: block;
+      font-size: 14px;
+      font-weight: 450;
+      margin-bottom: 10px;
+      color: #808080;
+    }
+
+    input,
+    select {
+      border: 0;
+      border-radius: 0;
+      border-bottom: 1px solid #eee;
+      font-size: 16px;
+      font-weight: 450;
+      color: #212a30;
+      outline: none;
+      &:focus{
+        box-shadow: none;
+      }
+    }
+    select{
+      padding: 10px 0;
+      height: auto !important;
+    }
+    input[type="text"]{
+      padding: 10px 0;
+    }
+  }
+
+  .booking-agent {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+
+    .beautyBookingForm__agent {
+      margin-top: 8px;
+      width: 100%;
+      flex-basis: 100%;
+      font-size: 14px;
+      font-weight: 450;
+      margin-bottom: 10px;
+      color: #808080;
+    }
+
+    input[name="agent"] {
+      display: none;
+    }
+
+    input[name="agent"]:checked + label > .agent-thumbnail {
+      border: 2px solid var(--primary-hover);
+    }
+
+    label {
+      position: relative;
+
+      &:not(:first-child) {
+        margin-right: 8px;
+      }
+
+      &:hover {
+        .agent-thumbnail {
+          border: 1px solid var(--primary);
+        }
+
+        .booking-agent__info {
+          visibility: visible;
+        }
+      }
+    }
+
+    .agent-thumbnail {
+      width: 50px;
+      height: 50px;
+      border-radius: 100%;
+      object-fit: cover;
+    }
+
+    .booking-agent__info {
+      visibility: hidden;
+      position: absolute;
+      bottom: 50px;
+      left: 50%;
+      transform: translateX(-50%);
+
+      .card {
+        width: 350px;
+        flex-direction: row;
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+        .card-img-left {
+          width: 120px;
+          height: 120px;
+          border-radius: 100%;
+          margin: auto 0 auto 10px;
+        }
+      }
+    }
+  }
+
+  .booking-form__content {
+    padding: 20px 0 0 0 !important;
+
+    .btn-book-now {
+      margin-top: 15px;
+      width: 100%;
+      padding: 12px 10px;
+      border-radius: 0;
+    }
+  }
+}
+
+.single-beauty {
+  .gallery{
+    position: relative;
+  }
+  .cancel-day{
+    background: $main-color;
+    color: #fff;
+    display: inline-block;
+    border-radius: 3px;
+    padding: 4px 10px;
+    font-weight: 450;
+    margin-bottom: 16px;
+  }
+  .cancel-detail{
+    font-size: 15px;
+    font-weight: 450;
+  }
+  section{
+    &.policy,
+    &.map{
+      margin-bottom: 45px;
+    }
+  }
+  .video{
+    background: #eee;
+    position: absolute;
+    z-index: 9;
+    padding: 7px;
+    font-size: 13px;
+    font-weight: 450;
+    border-radius: 3px;
+    top: 20px;
+    right: 20px;
+    &:hover{
+      background: $main-color;
+      color: #fff;
+    }
+  }
+  .post-title {
+    margin: 25px 0 5px 0;
+    display: block;
+    font-size: 25px;
+
+    &:first-letter {
+      text-transform: uppercase;
+    }
+
+    .is-featured {
+      background: #e83e8c;
+      font-size: 12px;
+      font-weight: 450;
+      padding: 3px 5px;
+      border-radius: 3px;
+      position: relative;
+      top: -4px;
+      color: #fff;
+    }
+  }
+
+  .star-rating {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 15px;
+
+    .fa-star {
+      color: darkorange;
+      font-size: 12px;
+      margin-right: 3px;
+
+      &.star-none {
+        color: #d7dce3;
+      }
+    }
+  }
+
+  .location,
+  .branch,
+  .service-name{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--primary);
+    a{
+      color: #808080;
+    }
+  }
+  .service-name{
+    margin-left: 20px;
+  }
+  .location{
+    margin-top: 10px;
+  }
+  .meta{
+    margin-top: 25px;
+    margin-bottom: 45px;
+    ul{
+      padding: 0;
+      margin: 0;
+      overflow: hidden;
+      li{
+        list-style: none;
+        float: left;
+        margin-right: 20px;
+        font-size: 16px;
+        border: 2px solid var(--primary);
+        border-radius: 5px;
+        min-width: 90px;
+        display: inline-block;
+        text-align: center;
+        padding: 5px 10px;
+        .value {
+          color: var(--primary);
+          font-weight: 500;
+        }
+        .label {
+          display: block;
+          font-size: 13px;
+          color: #808080;
+        }
+      }
+    }
+  }
+
+  section .section-title {
+    margin-bottom: 20px;
+    display: block;
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+  .map-single{
+    height: 400px;
+  }
+
+}

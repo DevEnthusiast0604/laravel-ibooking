@@ -1,0 +1,542 @@
+body.page {
+  .page-heading {
+    h1 {
+      color: $text;
+      margin-top: 40px;
+      margin-bottom: 20px;
+      font-size: 25px;
+      font-weight: 450;
+    }
+  }
+  &.page-checkout{
+    form{
+      padding-bottom: 50px;
+      input.form-control,
+      select.form-control{
+        height: 45px;
+      }
+      label{
+        font-weight: 450;
+        .required{
+          color: #cc0000;
+          margin-left: 3px;
+        }
+      }
+      button[type="submit"]{
+        border-radius: 0;
+        padding: 10px 20px;
+        margin-top: 5px;
+      }
+      .checkbox-inline{
+        margin-bottom: 25px;
+      }
+    }
+    .cart-info-wrapper{
+      padding-left: 30px;
+      .cart-info{
+        border: 1px solid #eee;
+        padding: 25px;
+        border-radius: 3px;
+        &__heading{
+          margin-bottom: 10px;
+          border-bottom: 1px solid #eee;
+          padding-bottom: 10px;
+          .thumbnail{
+            width: 70px;
+            height: 70px;
+          }
+          .info{
+            padding-left: 15px;
+            .title{
+              font-size: 19px;
+              a{
+
+              }
+            }
+            .location{
+              margin-bottom: 0;
+              color: gray;
+              i{
+
+              }
+            }
+          }
+        }
+        .room-detail-wrapper {
+          .room-detail {
+            margin-top: 15px;
+            font-weight: 500;
+            font-size: 15px;
+            margin-bottom: 15px;
+          }
+        }
+        &__meta{
+          padding:0;
+          margin: 0;
+          margin-bottom: 10px;
+          padding-bottom: 10px;
+          border-bottom: 1px solid #eee;
+          li{
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 7px 0px;
+            border-bottom: 1px dotted #eee;
+            &:last-child{
+              border-bottom: none;
+              padding-bottom: 0;
+            }
+            &.agent{
+              padding-top: 10px;
+            }
+            .label{
+              font-weight: 450;
+            }
+            .value{
+              font-size: 16px;
+              font-weight: 500;
+              .agent-info{
+                text-align: center;
+                .agent-thumb{
+                  margin-bottom: 5px;
+                  img{
+                    border-radius: 50%;
+                    border: 1px solid $main-color;
+                  }
+                }
+                .agent-name{
+                  font-size: 15px;
+                  font-weight: 500;
+                }
+              }
+            }
+          }
+          &.room{
+            border: 1px solid #eee;
+            padding: 10px;
+            padding-top: 0;
+            margin-top: 0;
+            li{
+              display: block;
+              .label{
+                font-weight: 500;
+                font-size: 15px;
+                display: block;
+                margin-bottom: 5px;
+              }
+              .value{
+                table{
+                  width: 100%;
+                  border: none;
+                  border-collapse: collapse;
+                  border-radius: 3px;
+                  margin-bottom: 0;
+                  tr{
+                    td{
+                      padding: 0;
+                      border: none;
+                      font-weight: 450;
+                      font-size: 14px;
+                      &:last-child{
+                        font-weight: 500;
+                        text-align: right;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        &__equipment,
+        &__insurance{
+          .__label{
+            font-size: 16px;
+            font-weight: 500;
+            margin-bottom: 10px;
+            margin-top: 15px;
+            display: block;
+          }
+          table{
+            width: 100%;
+            border: 1px solid #eee;
+            border-collapse: collapse;
+            border-radius: 3px;
+            margin-bottom: 15px;
+            tr{
+              th{
+                font-size: 14px;
+                border: 1px solid #eee;
+                background: #eee;
+                padding: 5px 7px;
+                font-weight: 500;
+              }
+              td{
+                padding: 5px 7px;
+                border: 1px solid #eee;
+                font-weight: 450;
+              }
+            }
+          }
+        }
+        &__price{
+          margin-top: 15px;
+          ul{
+            padding:0;
+            margin: 0;
+            li{
+              list-style: none;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              padding: 7px 0px;
+              border-bottom: 1px dotted #eee;
+              &:last-child{
+                border-bottom: none;
+                padding-bottom: 0;
+              }
+              .label{
+                font-weight: 450;
+              }
+              .value{
+                font-size: 16px;
+                font-weight: 500;
+              }
+              &.total{
+                background: #eee;
+                padding: 15px 10px;
+                .label{
+                  font-size: 16px;
+                  font-weight: 500;
+                }
+                .value{
+                  font-size: 20px;
+                  font-weight: 500;
+                  color: $main-color;
+                }
+              }
+            }
+          }
+        }
+        &__coupon{
+          .coupon-title{
+            color: $main-color
+          }
+          form{
+            padding-bottom: 5px;
+            .inner {
+              display: flex;
+              align-items: center;
+              .btn {
+                margin-top: 0;
+                height: 40px;
+                border-radius: 0 3px 3px 0;
+                padding: 2px 15px 5px 15px;
+              }
+
+              input {
+                height: 40px;
+                border-radius: 3px 0 0 3px;
+                padding: 3px 10px 5px 10px;
+              }
+            }
+            .alert{
+              margin-top: 5px;
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.page {
+  &.become-partner,
+  &.contact-us {
+    .site-content {
+      .breadcrumb {
+        margin-bottom: 0;
+      }
+    }
+
+    section.partner-form {
+      background: #eee url("../image/page/become-a-partner.jpg") center center no-repeat;
+      background-size: cover;
+      padding: 100px 0;
+
+      .become-form {
+        background: #fff;
+        border-radius: 5px;
+        padding: 35px 30px;
+        position: relative;
+        overflow: hidden;
+
+        .gmz-loader {
+          position: absolute;
+        }
+
+        .title {
+          font-size: 24px;
+          margin-bottom: 21px;
+        }
+
+        .form-group {
+          margin-bottom: 16px;
+
+          label {
+            color: gray;
+
+            .required {
+              color: #cc0000;
+              position: relative;
+              top: 2px;
+              margin-left: 3px;
+            }
+          }
+
+          input.form-control {
+            height: 42px;
+          }
+        }
+
+        button {
+          padding: 11px 15px;
+          width: 100%;
+          font-size: 15px;
+          font-weight: 450;
+        }
+      }
+
+      .become-intro {
+        padding-left: 100px;
+        position: relative;
+        top: 50%;
+        left: 0;
+        transform: translate(0, -50%);
+        color: #fff;
+
+        h3 {
+          font-size: 38px;
+          margin-bottom: 20px;
+        }
+
+        p {
+          margin-bottom: 0;
+          font-size: 18px;
+        }
+      }
+    }
+
+    section.icon-box {
+      padding: 80px 0;
+      background: #f9f9f9;
+
+      .title {
+        font-size: 35px;
+        text-align: center;
+        margin-bottom: 60px;
+      }
+
+      .item {
+        padding: 0 30px;
+        text-align: center;
+
+        .number {
+          width: 40px;
+          height: 40px;
+          background: $main-color;
+          border-radius: 50%;
+          font-weight: bold;
+          font-size: 24px;
+          color: #fff;
+          margin: auto;
+          margin-bottom: 15px;
+          line-height: 38px;
+          text-align: center;
+        }
+
+        .main-text {
+          font-size: 19px;
+          margin-bottom: 10px;
+        }
+
+        .sub-text {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    section.why-be-partner {
+      padding: 80px 0;
+
+      .title {
+        font-size: 35px;
+        text-align: center;
+        margin-bottom: 80px;
+      }
+
+      .item {
+        margin-bottom: 50px;
+        display: flex;
+        align-items: center;
+
+        .left {
+          width: 50%;
+        }
+
+        .right {
+          width: 50%;
+          padding-left: 50px;
+        }
+
+        .main-text {
+          font-size: 24px;
+          margin-bottom: 20px;
+        }
+
+        .sub-text {
+          margin-bottom: 0;
+          font-size: 16px;
+        }
+
+        &:nth-child(2n + 1) {
+          .left {
+            order: 2
+          }
+
+          .right {
+            padding-left: 0;
+            padding-right: 50px;
+            order: 1
+          }
+        }
+      }
+    }
+  }
+
+  &.contact-us {
+    section.partner-form {
+      background: none;
+      position: relative;
+
+      .contact-feature-image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      &:before {
+        content: '';
+        background: rgba(0, 0, 0, 0.4);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 9;
+      }
+
+      .become-form, .become-intro {
+        position: relative;
+        z-index: 99;
+
+        p {
+          &.description {
+            margin-bottom: 40px;
+          }
+
+          &.meta {
+            font-size: 16px;
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+
+    .map-single {
+      height: 500px;
+      width: 100%;
+    }
+  }
+}
+
+@media(max-width: 991px){
+  .page{
+    &.page-checkout{
+      .site-content{
+        .cart-user-form{
+          order: 2;
+        }
+        .cart-info-wrapper{
+          order: 1;
+          padding-left: 12px;
+        }
+      }
+    }
+    &.become-partner, &.contact-us{
+      section{
+        &.partner-form{
+          padding: 55px 0;
+          .partner-form__left{
+            order: 2;
+          }
+          .partner-form__right{
+            order: 1;
+            .become-intro{
+              padding-left: 0;
+              margin-bottom: 40px;
+              top: 0;
+              transform: none;
+            }
+          }
+        }
+        &.icon-box{
+          .col-lg-4{
+            &:not(:last-child){
+              .item{
+                margin-bottom: 45px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media(max-width: 767px){
+  section{
+    .section-title{
+      font-size: 1.7rem;
+    }
+  }
+  .page{
+    &.become-partner{
+      section{
+        &.why-be-partner{
+          .item{
+            display: block;
+            text-align: center;
+            margin-bottom: 65px;
+            &:last-child{
+              margin-bottom: 0;
+            }
+            .left{
+              width: 100%;
+              padding: 0;
+              margin-bottom: 30px;
+            }
+            .right{
+              width: 100%;
+              padding: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
